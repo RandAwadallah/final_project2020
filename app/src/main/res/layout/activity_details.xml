@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details">
+
+
+    <TextView
+        android:id="@+id/millage_result"
+        android:layout_width="310dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toEndOf="@+id/description"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <TextView
+        android:id="@+id/storage_result"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/storage"
+        app:layout_constraintTop_toBottomOf="@+id/price_result" />
+
+    <TextView
+        android:id="@+id/price_result"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mobilePrice"
+        app:layout_constraintTop_toBottomOf="@+id/name_result" />
+
+    <ImageView
+        android:id="@+id/ShowImageView"
+        android:layout_width="356dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/mobileName"
+        android:layout_width="162dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="319dp"
+        android:layout_marginRight="319dp"
+        android:text="Mobile Name:"
+        android:textColor="#08229E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mobilePrice"
+        android:layout_width="135dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Mobile Price:"
+        android:textColor="#08229E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/price_result"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobileName" />
+
+    <TextView
+        android:id="@+id/storage"
+        android:layout_width="138dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="333dp"
+        android:layout_marginRight="333dp"
+        android:text="Storage:"
+        android:textColor="#08229E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobilePrice" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="152dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="335dp"
+        android:layout_marginRight="335dp"
+        android:text="Description:"
+        android:textColor="#08229E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/storage" />
+
+    <TextView
+        android:id="@+id/name_result"
+        android:layout_width="191dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/mobileName"
+        app:layout_constraintTop_toBottomOf="@+id/ShowImageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
