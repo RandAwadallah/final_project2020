@@ -13,5 +13,7 @@ public class update_mobile extends AppCompatActivity {
         setContentView(R.layout.activity_update_mobile);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Update a mobile details");
+
     }
+
 }

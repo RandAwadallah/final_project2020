@@ -72,6 +72,7 @@ public class listofmobilesActivity extends AppCompatActivity {
                     StringBuilder sb = new StringBuilder();
                     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(con.getInputStream()));
                     String json;
+
                     while ((json = bufferedReader.readLine()) != null) {
                         sb.append(json + "\n");
                     }

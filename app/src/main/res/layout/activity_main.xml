@@ -15,10 +15,10 @@
         android:layout_height="wrap_content"
         android:text="Make one of the following choices:"
         android:textSize="23sp"
-        android:textColor="@android:color/holo_blue_dark"/>
+        android:textColor="@android:color/holo_blue_light"/>
 
     <RadioGroup
-        android:id="@+id/rgPhones"
+        android:id="@+id/Phones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Submit"
-            android:background="@android:color/holo_blue_dark"
+            android:background="@android:color/holo_blue_light"
             android:textColor="@android:color/white"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"/>

@@ -100,7 +100,7 @@ public class update_list extends AppCompatActivity {
 
                 View view = super.getView(position, convertView, parent);
                 if (position % 2 == 1)
-                    view.setBackgroundColor(Color.rgb(255, 179, 179));
+                    view.setBackgroundColor(Color.rgb(200, 170, 170));
                 else
                     view.setBackgroundColor(Color.WHITE);
                 return view;

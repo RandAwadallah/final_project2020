@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/millage_result"
+        android:id="@+id/millage"
         android:layout_width="310dp"
         android:layout_height="128dp"
         android:layout_marginStart="1dp"
@@ -20,11 +20,11 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.884"
-        app:layout_constraintStart_toEndOf="@+id/description"
-        app:layout_constraintTop_toBottomOf="@+id/description" />
+        app:layout_constraintStart_toEndOf="@+id/descrip"
+        app:layout_constraintTop_toBottomOf="@+id/descrip" />
 
     <TextView
-        android:id="@+id/storage_result"
+        android:id="@+id/storag"
         android:layout_width="191dp"
         android:layout_height="48dp"
         android:layout_marginEnd="102dp"
@@ -33,10 +33,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/storage"
-        app:layout_constraintTop_toBottomOf="@+id/price_result" />
+        app:layout_constraintTop_toBottomOf="@+id/price" />
 
     <TextView
-        android:id="@+id/price_result"
+        android:id="@+id/price"
         android:layout_width="191dp"
         android:layout_height="48dp"
         android:layout_marginTop="12dp"
@@ -88,7 +88,7 @@
         android:text="Mobile Price:"
         android:textColor="#08229E"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/price_result"
+        app:layout_constraintEnd_toStartOf="@+id/price"
         app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mobileName" />
@@ -110,7 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/mobilePrice" />
 
     <TextView
-        android:id="@+id/description"
+        android:id="@+id/descrip"
         android:layout_width="152dp"
         android:layout_height="47dp"
         android:layout_marginStart="20dp"
